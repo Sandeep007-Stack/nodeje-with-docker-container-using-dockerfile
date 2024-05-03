@@ -1,13 +1,13 @@
 {
   "name": "santest",
   "version": "1.0.0",
-  "description": "Samplesantest Node.js Project",
+  "description": "Santest Node.js Project",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Adem Cemil YALCIN",
+  "author": "Sandeep Bansod",
   "license": "ISC",
   "dependencies": {
     "express":"latest",
