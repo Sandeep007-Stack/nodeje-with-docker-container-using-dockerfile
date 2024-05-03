@@ -1,0 +1,14 @@
+/*
+
+STİL KODLARINI BURAYA YAZABİLİRSİNİZ.
+
+*/
+
+.container{
+    width: 800px;
+    background: #f5f5f5;
+    padding: 20px 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}

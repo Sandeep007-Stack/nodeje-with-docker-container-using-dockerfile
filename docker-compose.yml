@@ -1,0 +1,18 @@
+version: "3"
+services:
+  santest:
+    build:
+      context: /Users/sandeepbansod/PROJECTS/DEMO/Demo/santest
+      dockerfile: Dockerfile
+      args:
+        - PORT=${API_GATEWAY_PORT}
+    restart: always
+    hostname: santest
+    env_file:
+      - .env
+    ports:
+      - ${PORT}:${PORT}
+      - ${INSPECTOR_PORT}:${INSPECTOR_PORT}
+    volumes:
+      - /Users/sandeepbansod/PROJECTS/DEMO/Demo/santest:/var/www/santest
+      - /var/www/santest/node_modules
